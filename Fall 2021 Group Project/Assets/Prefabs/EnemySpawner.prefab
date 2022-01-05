@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1695313439164804905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7735154234090791604}
+  - component: {fileID: 3874605136671414561}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7735154234090791604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695313439164804905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9896774, y: 3.4875288, z: -7.553639}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3874605136671414561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695313439164804905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a7d8172f41c574da8eea044c33d196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnpoints: []
+  Enemies:
+  - {fileID: 3487401634567357923, guid: 18382eeaf56669c4bace351548af0124, type: 3}
+  - {fileID: 2857870606022956576, guid: 0f2a19020ff12564588bb2b7c4da28cb, type: 3}
+  - {fileID: 4783376080234376807, guid: 9bc39d246c51b48438645260341321b2, type: 3}
+  - {fileID: 295311436106974233, guid: 863da025840511d45af891feeab9a714, type: 3}
+  Bosses:
+  - {fileID: 3487401634567357923, guid: 5a0151059b177c24187cd2e23eae4b2e, type: 3}
+  - {fileID: 4783376080234376807, guid: c45ca5e2d03659f4abfb2f489989a2c9, type: 3}
+  - {fileID: 3487401634567357923, guid: 16ded1818a2624541a359348bc072c84, type: 3}
+  spawnsLeft: 5
+  maxSpawns: 2
+  currentSpawns: 0
+  EnemySpawnTime: 0

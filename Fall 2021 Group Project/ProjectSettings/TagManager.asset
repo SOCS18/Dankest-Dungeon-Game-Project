@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Ground
+  - Health
+  - Attack Speed
+  - Attack Damage
+  - Movement Speed
+  - Jump Amount
+  - Pickup
+  - Hitbox
+  - EnemyBlocker
+  - PatrolPoint
+  - SpawnPoint
+  - Enemy
+  - HealthBar
+  - Exit
+  - PickupText
+  - MoneyText
+  - attackDamagePriceText
+  - attackSpeedPriceText
+  - moveSpeedPriceText
+  - jumpAmountPriceText
+  - UIHandler
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemies
+  - Arena
+  - Player
+  - Triggers
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BG
+    uniqueID: 2854381971
+    locked: 0
+  - name: BG2
+    uniqueID: 2664238963
+    locked: 0
+  - name: BG3
+    uniqueID: 2293042605
+    locked: 0
+  - name: BG4
+    uniqueID: 1767319869
+    locked: 0
+  - name: BG5
+    uniqueID: 2562702595
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Particles
+    uniqueID: 3973340933
+    locked: 0
+  - name: Trigger
+    uniqueID: 2026779773
+    locked: 0
